@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.recipe {
+  background-color: white;
+  width: 30rem;
+  border-radius: 0.7rem;
+  padding: 1.3rem;
+}
+.recipe span {
+  color: hsl(24, 5%, 18%);
+}
+.recipe .head {
+  color: hsl(332, 51%, 32%);
+}
+.prep {
+  list-style-position: inside;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+.egg {
+  width: 100%;
+  margin-bottom: 1.3rem;
+  border-radius: 0.5rem;
+}
+.ingredients {
+  padding-top: 20px;
+}
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-bottom: 1.3rem;
+}
+h3 {
+  font-size: 0.63rem;
+  padding-bottom: 1.3rem;
+  color: hsl(30, 10%, 34%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 1.03rem;
+}
+ul {
+  font-family: "Outfit", serif;
+  padding-bottom: 20px;
+  list-style-position: inside;
+}
+li {
+  padding: 5px;
+  color: hsl(30, 10%, 34%);
+  font-size: 0.65rem;
+}
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.instructions li {
+  list-style-type: decimal;
+}
+.instructions span {
+  color: hsl(24, 5%, 18%);
+}
+.nutrition p {
+  padding-bottom: 0.5rem;
+  font-size: 0.65rem;
+}
+.nutrition h2 {
+  padding-bottom: 0.5rem;
+}
+table {
+  font-size: 0.65rem;
+  width: 100%;
+  height: 8rem;
+  padding-left: 1.2rem;
+}
+th {
+  text-align: left;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+.row {
+  color: hsl(332, 51%, 32%);
+}
